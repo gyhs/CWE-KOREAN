@@ -1,0 +1,129 @@
+#Sana - Sana (1811000/452750 POPS)
+1178 = {
+	capitalists = {
+		culture = jewish
+		religion =  jewish 
+		size = 2257
+	 } 
+	capitalists = {
+		culture = jewish
+		religion = secularism
+		size = 5
+	 } 
+	officers = {
+		culture = yemeni
+		religion =  sunni 
+		size = 3109
+	 } 
+	soldiers = {
+		culture = yemeni
+		religion =  sunni 
+		size = 12439
+	 } 
+	aristocrats = {
+		culture = yemeni
+		religion =  sunni 
+		size = 18110
+	 } 
+	clergymen = {
+		culture = yemeni
+		religion =  sunni 
+		size = 4527
+	 } 
+	artisans = {
+		culture = yemeni
+		religion =  sunni 
+		size = 5065
+	 } 
+	farmers = {
+		culture = yemeni
+		religion =  sunni 
+		size = 92123
+	 } 
+	farmers = {
+		culture = jewish
+		religion =  jewish 
+		size = 2258
+	 } 
+	farmers = {
+		culture = jewish
+		religion = secularism
+		size = 5
+	 } 
+	farmers = {
+		culture = yemeni
+		religion =  shiite 
+		size = 303640
+	 } 
+}
+#Hodeida - Hodeida (529000/132250 POPS)
+1179 = {
+	soldiers = {
+		culture = yemeni
+		religion =  sunni 
+		size = 3633
+	 } 
+	aristocrats = {
+		culture = yemeni
+		religion =  sunni 
+		size = 5290
+	 } 
+	clergymen = {
+		culture = yemeni
+		religion =  sunni 
+		size = 1322
+	 } 
+	artisans = {
+		culture = yemeni
+		religion =  sunni 
+		size = 1479
+	 } 
+	farmers = {
+		culture = yemeni
+		religion =  sunni 
+		size = 116265
+	 } 
+}
+#Taizz - Taizz (1619000/404750 POPS)
+1180 = {
+	officers = {
+		culture = yemeni
+		religion =  sunni 
+		size = 2780
+	 } 
+	soldiers = {
+		culture = yemeni
+		religion =  sunni 
+		size = 11120
+	 } 
+	aristocrats = {
+		culture = yemeni
+		religion =  sunni 
+		size = 16190
+	 } 
+	capitalists = {
+		culture = yemeni
+		religion =  sunni 
+		size = 2023
+	 } 
+	clergymen = {
+		culture = yemeni
+		religion =  sunni 
+		size = 4047
+	 } 
+	artisans = {
+		culture = yemeni
+		religion =  sunni 
+		size = 4528
+	 } 
+	farmers = {
+		culture = yemeni
+		religion =  sunni 
+		size = 209853
+	 } 
+	farmers = {
+		culture = yemeni
+		religion =  shiite 
+		size = 145976
+	 } 
+}

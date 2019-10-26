@@ -1,0 +1,143 @@
+graphical_culture = SouthAmericanGC
+color = { 183 129 124 }
+party = {
+		name = "party_nationalist"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = nationalist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_big_tent"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = big_tent
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+
+party = {
+		name = "party_conservative_0_COS"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_liberal_0_COS"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_socialist_0_COS"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_progressive_0_COS"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = progressive
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_populist_0_COS"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_traditionalist_0_COS"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = traditionalist
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_0_COS"
+		citizenship_policy = full_citizenship
+		economic_policy = planned_economy
+		ideology = communist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_social"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = communist_social
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+unit_names = {
+	carrier = {
+		Caribe Centroami申rica "Costa Rica" "Josi申 Mari申a Castro" "Juan Mora" Libertad Presidente "Rafael Yglesias" Repi申blica "Tomi申s Guardia"
+	}
+	transportship = {
+		Alicia Ana Ancla Ballena Carmen Costero Delfi申n Gabriel Goliat Indetectable "Isla del Coco" Rafael Ri申pido Sansi申n Silencioso Sirena Tiburi申n "Toro Amarillo" Triti申n Vida
+	}
+	modern_frigate = {
+		Barva "Cerro de la Muerte" Guanacaste Intratable Poi申s "Rinci申n de la Vieja" Talamanca Tilari申n Turrialba Victorioso
+	}
+	cruiser = {
+		Cacique "Castillo del Oro" Chami申n Chorotega Constitucii申n "Cristi申bal Coli申n" Independencia "Puerto Limi申n" "Quince de Septiembre" "Vasco Ni申i申ez de Balboa"
+	}
+	modern_cruiser = {
+		Caribe Centroami申rica "Costa Rica" "Josi申 Mari申a Castro" "Juan Mora" Libertad Presidente "Rafael Yglesias" Repi申blica "Tomi申s Guardia"
+	}
+	frigate = {
+		Alajuela Cartago Guanacaste Heredia Liberia Limi申n Nicoya Papagayo Puntarenas "San Josi申"
+	}
+	modern_destroyer = {
+		Arenal Bebedero Diqui申s Jimi申nez Reventazi申n "San Juan" Sixaola Ti申rcoles Tempisque Tortuguero
+	}
+	destroyer = {
+		Audaz Intri申pido Libertad "San Antonio" "San Fernando" "San Juan" "Santa Isabel" "Santa Marta" "Santa Mi申nica" Vigilante
+	}
+	submarine = {
+		"Cacho Negro" Chato Congo Irazi申 Miravalles Orosi申 Platanar Porvenir "Santa Mari申a" Tenorio
+	}
+
+}

@@ -1,0 +1,35 @@
+#Protect Neutral Countries
+country_event = {
+	id = 1412144
+title = "$FROMCOUNTRY$'s diplomatic neutrality violated"
+	desc = "Neutral $FROMCOUNTRY$'s diplomatic immunity has been violated. All nations at war with $FROMCOUNTRY$ will be punished by the international community."
+	picture = "neutrality_violated"
+
+is_triggered_only = yes
+
+option = {
+name = "We will not be stopped!"
+prestige_factor = -0.2
+country_event = 1412092
+badboy = 50
+
+FROM = { 
+war = {
+	target = REB
+	attacker_goal = { casus_belli = status_quo }
+	defender_goal = { casus_belli = status_quo }
+	call_ally = yes
+} 
+	}
+
+	ai_chance = { factor = 1 }
+		}
+
+option = {
+	name = "Agree a ceasefire!"
+	prestige_factor = -0.05
+	end_war = FROM
+	ai_chance = { factor = 0 }
+		}
+
+}

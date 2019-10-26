@@ -1,0 +1,844 @@
+#Notre-Dame de Paris fire, 2019
+country_event = {
+	id = 1610000
+title = "Notre-Dame de Paris fire"
+	desc = EVTDESC1610000
+	picture = "notre_dame_fire"
+
+fire_only_once = yes
+
+trigger = {
+owns = 425
+year = 2019
+tag = FRA
+}
+
+mean_time_to_happen = { 
+months = 4.5
+}
+
+option = {
+name = "Rebuild the spire as it was"
+money = -50000
+prestige = 50
+ai_chance = { factor = 0.8 }
+		}
+
+option = {
+name = "Create a contemporary spire"
+money = -25000
+ai_chance = { factor = 0.2 }
+		}
+
+}
+
+#Call to join superstate
+country_event = {
+	id = 1610001
+title = "Foundation of $COUNTRY$"
+	desc = EVTDESC1610001
+	picture = "superstate_formation_event"
+
+trigger = {
+war = no
+is_vassal = no
+NOT = { has_country_flag = superstate_formation_event }
+OR = {
+tag = XGC
+tag = XEF
+tag = XEU
+tag = XCC
+tag = XAU
+tag = XEW
+tag = XEC
+tag = XSA
+tag = XSU
+tag = XMS
+tag = XAC
+tag = XAL
+tag = XMU
+tag = XAN
+tag = XCI
+tag = XNA
+tag = XPI
+tag = XEA
+tag = XTC
+tag = XUM
+tag = XIO
+	}
+}
+
+option = {
+name = "Congratulations to ourselves!"
+prestige = 500
+
+#Invitations are continent bound
+random_owned = { limit = { is_capital = yes continent = europe } 
+owner = { 
+any_country = { 
+limit = { in_sphere = THIS capital_scope = { continent = europe } }
+country_event = 1610002 }
+} 
+	}
+
+random_owned = { limit = { is_capital = yes continent = asia } 
+owner = { 
+any_country = { 
+limit = { in_sphere = THIS neighbour = THIS capital_scope = { continent = asia } }
+country_event = 1610002 }
+} 
+	}
+
+random_owned = { limit = { is_capital = yes continent = africa } 
+owner = { 
+any_country = { 
+limit = { in_sphere = THIS neighbour = THIS capital_scope = { continent = africa } }
+country_event = 1610002 }
+} 
+	}
+
+random_owned = { limit = { is_capital = yes continent = mena } 
+owner = { 
+any_country = { 
+limit = { in_sphere = THIS capital_scope = { continent = mena } }
+country_event = 1610002 }
+} 
+	}
+
+random_owned = { limit = { is_capital = yes continent = north_america } 
+owner = { 
+any_country = { 
+limit = { in_sphere = THIS capital_scope = { continent = north_america } }
+country_event = 1610002 }
+} 
+	}
+
+random_owned = { limit = { is_capital = yes continent = south_america } 
+owner = { 
+any_country = { 
+limit = { in_sphere = THIS capital_scope = { continent = south_america } }
+country_event = 1610002 }
+} 
+	}
+
+random_owned = { limit = { is_capital = yes continent = oceania } 
+owner = { 
+any_country = { 
+limit = { in_sphere = THIS capital_scope = { continent = oceania } }
+country_event = 1610002 }
+} 
+	}
+
+#Vassals accept automatically
+any_country = { limit = { vassal_of = THIS } country_event = 11101 }
+
+set_country_flag = superstate_formation_event
+		}
+
+}
+
+#Call to join superstate
+country_event = {
+	id = 1610002
+title = "Union with $FROMCOUNTRY$?"
+	desc = EVTDESC1610002
+	picture = "superstate_formation_event"
+
+is_triggered_only = yes
+
+option = {
+name = "We shall unite!"
+
+all_core = { add_core = FROM }
+
+FROM = { prestige = 50 inherit = THIS }
+
+ai_chance = { 
+factor = 1 
+modifier = { 
+factor = 0 
+FROM = { OR = { government = democracy government = democracy1 government = socialist_democracy government = hms_government government = hms_government1 } }
+
+NOT = { OR = { government = democracy government = democracy1 government = socialist_democracy government = hms_government government = hms_government1 } }
+	}
+}
+
+		}
+
+option = {
+name = "Stay out of the union!"
+relation = { who = FROM value = -50 }
+ai_chance = { factor = 1 }
+		}
+
+}
+
+#Space Shuttle Challenger disaster
+country_event = {
+	id = 1610003
+title = "Space Shuttle Challenger Disaster"
+	desc = EVTDESC1610003
+	picture = "space_shuttle_challenger"
+
+fire_only_once = yes
+
+trigger = {
+tag = USA
+year = 1986
+NOT = { year = 1990 }
+war = no
+government = democracy
+has_country_modifier = space_agency
+}
+
+mean_time_to_happen = { 
+months = 1
+}
+
+option = {
+name = "A tragedy"
+prestige = -50
+		}
+
+}
+
+#The Nissho Maru Incident
+country_event = {
+	id = 1610004
+title = "The Nissho Maru Incident"
+	desc = EVTDESC1610004
+	picture = "nissho_maru_incident"
+
+fire_only_once = yes
+
+trigger = {
+tag = JAP
+year = 1953
+NOT = { year = 1990 }
+war = no
+government = hms_government
+is_vassal = no
+exists = ENG
+has_global_flag = abadan_crisis
+}
+
+mean_time_to_happen = { 
+months = 3
+}
+
+option = {
+name = "Refuse to submit to British pressure"
+relation = { who = ENG value = -50 }
+ai_chance = { factor = 0.8 }
+		}
+
+option = {
+name = "Submit to British pressure"
+prestige = -50
+ai_chance = { factor = 0.2 }
+		}
+
+}
+
+#Independent Occupation Zone joins Germany - democratic 
+country_event = {
+	id = 1610005
+title = "United Democratic Germany"
+	desc = "An Occupation Zone returns to German control"
+	picture = "treaty"
+
+trigger = {
+OR = { tag = OG1 tag = OG2 tag = OG3 tag = OG4 }
+is_vassal = no
+war = no
+OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 }
+GER = { war = no exists = yes OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 } }
+}
+
+option = {
+name = "Join Germany"
+GER = { inherit = THIS }
+		}
+}
+
+#Independent Occupation Zone joins Germany - socialist 
+country_event = {
+	id = 1610006
+title = "United Socialist Germany"
+	desc = "An Occupation Zone returns to German control"
+	picture = "treaty"
+
+trigger = {
+OR = { tag = OG1 tag = OG2 tag = OG3 tag = OG4 }
+is_vassal = no
+war = no
+OR = { government = socialist_democracy government = proletarian_dictatorship1 government = proletarian_dictatorship }
+GER = { war = no exists = yes OR = { government = socialist_democracy government = proletarian_dictatorship1 government = proletarian_dictatorship } }
+}
+
+option = {
+name = "Join Germany"
+GER = { inherit = THIS }
+		}
+}
+
+#Independent Occupation Zone joins East Germany - socialist 
+country_event = {
+	id = 1610007
+title = "United Socialist East Germany"
+	desc = "An Occupation Zone returns to East German control"
+	picture = "treaty"
+
+trigger = {
+OR = { tag = OG1 tag = OG2 tag = OG3 tag = OG4 }
+is_vassal = no
+war = no
+OR = { government = socialist_democracy government = proletarian_dictatorship1 government = proletarian_dictatorship }
+DDR = { war = no exists = yes OR = { government = socialist_democracy government = proletarian_dictatorship1 government = proletarian_dictatorship } }
+}
+
+option = {
+name = "Join East Germany"
+DDR = { inherit = THIS }
+		}
+}
+
+#Satellites destroyed
+country_event = {
+	id = 1610008
+title = "Satellites Destroyed by $FROMCOUNTRY$"
+	desc = EVTDESC1610008
+	picture = "satellite_destroyed"
+
+is_triggered_only = yes
+
+option = {
+name = "Outrageous!"
+prestige = -100
+add_country_modifier = { name = satellites_destroyed duration = 1825 }
+		}
+}
+
+#Civil Service Strikes 
+country_event = {
+	id = 1610009
+title = "Civil Service Strikes"
+	desc = EVTDESC1610009
+	picture = "civil_service_strikes"
+
+trigger = {
+war = no
+election = no
+OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 government = socialist_democracy }
+NOT = { crime_fighting = 0.6 }
+}
+
+mean_time_to_happen = { 
+months = 60
+modifier = { factor = 0.8 NOT = { crime_fighting = 0.5 } }
+modifier = { factor = 0.8 NOT = { crime_fighting = 0.4 } }
+modifier = { factor = 0.8 NOT = { crime_fighting = 0.3 } }
+modifier = { factor = 0.8 NOT = { crime_fighting = 0.2 } }
+modifier = { factor = 0.8 NOT = { crime_fighting = 0.1 } }
+}
+
+option = {
+name = "They are already over paid"
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = conservative } }
+owner = { any_pop = { ideology = { factor = -0.03 value = conservative } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = big_tent } }
+owner = { any_pop = { ideology = { factor = -0.03 value = big_tent } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = socialist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = socialist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = traditionalist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = traditionalist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = populist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = populist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = nationalist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = nationalist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = progressive } }
+owner = { any_pop = { ideology = { factor = -0.03 value = progressive } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = liberal } }
+owner = { any_pop = { ideology = { factor = -0.03 value = liberal } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = communist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = communist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = communist_social } }
+owner = { any_pop = { ideology = { factor = -0.03 value = communist_social } } }
+}
+
+		}
+}
+
+#Teacher's Strike
+country_event = {
+	id = 1610010
+title = "Teacher's Strike"
+	desc = EVTDESC1610010
+	picture = "teachers_strikes"
+
+trigger = {
+war = no
+election = no
+OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 government = socialist_democracy }
+NOT = { education_spending = 0.6 }
+}
+
+mean_time_to_happen = { 
+months = 60
+modifier = { factor = 0.8 NOT = { education_spending = 0.5 } }
+modifier = { factor = 0.8 NOT = { education_spending = 0.4 } }
+modifier = { factor = 0.8 NOT = { education_spending = 0.3 } }
+modifier = { factor = 0.8 NOT = { education_spending = 0.2 } }
+modifier = { factor = 0.8 NOT = { education_spending = 0.1 } }
+}
+
+option = {
+name = "They are already over paid"
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = conservative } }
+owner = { any_pop = { ideology = { factor = -0.03 value = conservative } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = big_tent } }
+owner = { any_pop = { ideology = { factor = -0.03 value = big_tent } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = socialist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = socialist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = traditionalist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = traditionalist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = populist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = populist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = nationalist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = nationalist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = progressive } }
+owner = { any_pop = { ideology = { factor = -0.03 value = progressive } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = liberal } }
+owner = { any_pop = { ideology = { factor = -0.03 value = liberal } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = communist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = communist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = communist_social } }
+owner = { any_pop = { ideology = { factor = -0.03 value = communist_social } } }
+}
+
+		}
+}
+
+#Doctor's Strike
+country_event = {
+	id = 1610011
+title = "Doctor's Strike"
+	desc = EVTDESC1610011
+	picture = "doctors_strikes"
+
+trigger = {
+war = no
+election = no
+OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 government = socialist_democracy }
+NOT = { social_spending = 0.6 }
+}
+
+mean_time_to_happen = { 
+months = 60
+modifier = { factor = 0.8 NOT = { social_spending = 0.5 } }
+modifier = { factor = 0.8 NOT = { social_spending = 0.4 } }
+modifier = { factor = 0.8 NOT = { social_spending = 0.3 } }
+modifier = { factor = 0.8 NOT = { social_spending = 0.2 } }
+modifier = { factor = 0.8 NOT = { social_spending = 0.1 } }
+}
+
+option = {
+name = "They are already over paid"
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = conservative } }
+owner = { any_pop = { ideology = { factor = -0.03 value = conservative } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = big_tent } }
+owner = { any_pop = { ideology = { factor = -0.03 value = big_tent } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = socialist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = socialist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = traditionalist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = traditionalist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = populist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = populist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = nationalist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = nationalist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = progressive } }
+owner = { any_pop = { ideology = { factor = -0.03 value = progressive } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = liberal } }
+owner = { any_pop = { ideology = { factor = -0.03 value = liberal } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = communist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = communist } } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = communist_social } }
+owner = { any_pop = { ideology = { factor = -0.03 value = communist_social } } }
+}
+
+		}
+}
+
+#Supreme Court pick
+country_event = {
+	id = 1610012
+title = "New Supreme Court Judge"
+	desc = EVTDESC1610012
+	picture = "supreme_court_pick"
+
+trigger = {
+war = no
+OR = { government = democracy government = democracy1 government = hms_government government = hms_government1 government = socialist_democracy }
+}
+
+mean_time_to_happen = { 
+months = 72
+}
+
+option = {
+name = "Let the independent select committee decide"
+ai_chance = { factor = 0.9 }
+}
+
+option = {
+name = "Select a pro-government judge"
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = conservative } }
+owner = { any_pop = { ideology = { factor = -0.03 value = conservative } } upper_house = { ideology = conservative value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = big_tent } }
+owner = { any_pop = { ideology = { factor = -0.03 value = big_tent } } upper_house = { ideology = big_tent value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = socialist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = socialist } } upper_house = { ideology = socialist value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = traditionalist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = traditionalist } } upper_house = { ideology = traditionalist value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = populist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = populist } } upper_house = { ideology = populist value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = nationalist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = nationalist } } upper_house = { ideology = nationalist value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = progressive } }
+owner = { any_pop = { ideology = { factor = -0.03 value = progressive } } upper_house = { ideology = progressive value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = liberal } }
+owner = { any_pop = { ideology = { factor = -0.03 value = liberal } } upper_house = { ideology = liberal value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = communist } }
+owner = { any_pop = { ideology = { factor = -0.03 value = communist } } upper_house = { ideology = communist value = 0.25 } }
+}
+
+random_owned = { 
+limit = { owner = { ruling_party_ideology = communist_social } }
+owner = { any_pop = { ideology = { factor = -0.03 value = communist_social } } upper_house = { ideology = communist_social value = 0.25 } }
+}
+
+ai_chance = { factor = 0.1 }
+
+		}
+}
+
+#Ebola Outbreak 2013
+country_event = {
+	id = 1610013
+title = "Ebola Virus Epidemic"
+	desc = EVTDESC1610013
+	picture = "ebola_outbreak_2013"
+
+trigger = {
+year = 2013
+NOT = { year = 2020 }
+any_owned_province = { OR = { is_core = LIB is_core = SRN is_core = GUI is_core = NGE is_core = MLI is_core = SEN } }
+NOT = { any_owned_province = { has_province_modifier = virus_outbreak } }
+NOT = { has_country_modifier = local_epidemic }
+NOT = { has_country_flag = ebola_outbreak_2013 }
+}
+
+mean_time_to_happen = { 
+months = 6
+}
+
+option = {
+name = "A disaster!"
+set_country_flag = ebola_outbreak_2013
+
+add_country_modifier = { name = local_epidemic duration = 1825 }
+
+any_owned = { 
+limit = { OR = { is_core = LIB is_core = SRN is_core = GUI is_core = NGE is_core = MLI is_core = SEN } } 
+
+add_province_modifier = { name = virus_outbreak duration = 1825 }
+}
+ai_chance = { factor = 0.8 }
+		}
+
+option = {
+name = "Do everything we can to stop the outbreak!"
+set_country_flag = ebola_outbreak_2013
+
+money = -300000
+
+add_country_modifier = { name = local_epidemic duration = 730 }
+
+any_owned = { 
+limit = { OR = { is_core = LIB is_core = SRN is_core = GUI is_core = NGE is_core = MLI is_core = SEN } } 
+
+add_province_modifier = { name = virus_outbreak duration = 730 }
+}
+ai_chance = { factor = 0.2 }
+		}
+
+}
+
+#Death of Deng Xiaoping
+country_event = {
+	id = 1610014
+title = "Death of Deng Xiaoping"
+	desc = EVTDESC1610014
+	picture = "deng_xiaoping_funeral"
+
+fire_only_once = yes
+
+trigger = {
+tag = CHI
+has_country_flag = deng_xiaoping_selected
+year = 1997
+government = proletarian_dictatorship
+ruling_party_ideology = communist_social
+}
+
+mean_time_to_happen = { 
+months = 2
+}
+
+option = {
+name = "A great leader has left us"
+any_pop = { militancy = -5 }
+		}
+
+}
+
+#Deng Xiaoping's successor
+country_event = {
+	id = 1610015
+title = "Deng Xiaoping's Successor"
+	desc = EVTDESC1610015
+	picture = "deng_xiaoping_successor"
+
+fire_only_once = yes
+
+trigger = {
+tag = CHI
+has_country_flag = deng_xiaoping_selected
+year = 1989 
+NOT = { year = 1992 }
+government = proletarian_dictatorship
+ruling_party_ideology = communist_social
+}
+
+mean_time_to_happen = { 
+months = 2
+}
+
+option = {
+name = "Select Jiang Zemin"
+add_country_modifier = { name = soviet_stability duration = 3650 }
+set_country_flag = jiang_zemin_selected
+ai_chance = { factor = 0.8 }
+		}
+
+option = {
+name = "Select Zhao Ziyang"
+political_reform = open_opinion
+political_reform = limited_meetings
+political_reform = firewall_publishing
+political_reform = minorities_equal_rights
+ai_chance = { factor = 0.2 }
+		}
+
+}
+
+#Jiang Zemin's successor
+country_event = {
+	id = 1610016
+title = "Jiang Zemin's Successor"
+	desc = EVTDESC1610016
+	picture = "jiang_zemin_successor"
+
+fire_only_once = yes
+
+trigger = {
+tag = CHI
+has_country_flag = jiang_zemin_selected
+year = 2002
+government = proletarian_dictatorship
+ruling_party_ideology = communist_social
+}
+
+mean_time_to_happen = { 
+months = 11
+}
+
+option = {
+name = "Select Hu Jingtao"
+set_country_flag = hu_jingtao_selected
+add_country_modifier = { name = soviet_stability duration = 3650 }
+ai_chance = { factor = 0.8 }
+		}
+
+option = {
+name = "Select Wen Jiabao"
+social_reform = good_pensions
+social_reform = good_health_care
+social_reform = generous_subsidies
+social_reform = eight_work_hours
+social_reform = unlimited_education
+social_reform = the_safety_grid
+ai_chance = { factor = 0.2 }
+		}
+
+}
+
+#Hu Jingtao's successor
+country_event = {
+	id = 1610017
+title = "Hu Jingtao's Successor"
+	desc = EVTDESC1610017
+	picture = "hu_jingtao_successor"
+
+fire_only_once = yes
+
+trigger = {
+tag = CHI
+has_country_flag = hu_jingtao_selected
+year = 2012
+government = proletarian_dictatorship
+ruling_party_ideology = communist_social
+}
+
+mean_time_to_happen = { 
+months = 11
+}
+
+option = {
+name = "Select Xi Jingping"
+add_country_modifier = { name = reducing_corruption duration = 1825 }
+
+random_owned = { limit = { owner = { has_country_modifier = low_government_corruption } } 
+owner = { remove_country_modifier = low_government_corruption add_country_modifier = { name = minimal_government_corruption duration = -1 } } }
+
+random_owned = { limit = { owner = { has_country_modifier = medium_government_corruption } } 
+owner = { remove_country_modifier = medium_government_corruption add_country_modifier = { name = low_government_corruption duration = -1 } } }
+
+random_owned = { limit = { owner = { has_country_modifier = large_government_corruption } } 
+owner = { remove_country_modifier = large_government_corruption add_country_modifier = { name = medium_government_corruption duration = -1 } } }
+
+random_owned = { limit = { owner = { has_country_modifier = massive_government_corruption } } 
+owner = { remove_country_modifier = massive_government_corruption add_country_modifier = { name = large_government_corruption duration = -1 } } }
+
+ai_chance = { factor = 0.8 }
+		}
+
+option = {
+name = "Select someone else"
+ai_chance = { factor = 0.2 }
+		}
+
+}

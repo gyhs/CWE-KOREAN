@@ -1,0 +1,145 @@
+graphical_culture = Generic
+color = { 0 0 255 }
+proletarian_dictatorship = { 255 0 0 }
+socialist_democracy = { 255 0 0 }
+party = {
+		name = "party_nationalist"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = nationalist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_big_tent"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = big_tent
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+
+party = {
+		name = "party_conservative_0_CUB"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_liberal_0_CUB"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_socialist_0_CUB"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_progressive_0_CUB"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = progressive
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_populist_0_CUB"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_traditionalist_0_CUB"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = traditionalist
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_0_CUB"
+		citizenship_policy = full_citizenship
+		economic_policy = planned_economy
+		ideology = communist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_social"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = communist_social
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+unit_names = {
+	carrier = {
+		"Antonio Maceo" "Bartolomi申 Masi申" "Carlos M. de Ci申spedes" "Carlos Roloff" "Hi申roes de Cuba" "Josi申 Marti申" "Mi申ximo Gi申mez" "Salvador Cisneros" "Serafi申n Si申nchez" "Tomi申s Estrada"
+	}
+	transportship = {
+		Ambicii申n Baltasar Caoba Cocodrilo Coral Defensora Deseada Estrella Ferminia Garza Gaspar Grande Mambi Manzanillo Melchor Perla "San Josi申" "Santa Mari申a" Teca Tocororo
+	}
+	modern_frigate = {
+		Agramonte Arai申a "Diez de Octubre" Guaimaro Habana Matanzas "Pilar del Ri申o" Tari申ntula "Veinticuatro de Febrero" Yara
+	}
+	cruiser = {
+		Caribe Cuba Florida Guajiro "Isla Fernandina" "Isla Juana" "Josi申 Antonio Aponte" "Joya del Caribe" "Nicoli申s Morales" Patria
+	}
+	modern_cruiser = {
+		"Antonio Maceo" "Bartolomi申 Masi申" "Carlos M. de Ci申spedes" "Carlos Roloff" "Hi申roes de Cuba" "Josi申 Marti申" "Mi申ximo Gi申mez" "Salvador Cisneros" "Serafi申n Si申nchez" "Tomi申s Estrada"
+	}
+	frigate = {
+		"Calixto Garci申a" Constitucii申n "Fi申lix Varela" "Grito de Yara" Independencia "Joaqui申n Infante" "Josi申 F. Lemus" "Josi申 Mi申 Heredia" Libertad Repi申blica
+	}
+	modern_destroyer = {
+		Baconao Buenavista Cauto "Diego Veli申zquez" "Isla de Pinos" Mi申ximo "Sierra Cristal" "Sierra del Rosario" Toa Turquino
+	}
+	destroyer = {
+		Ali申sio "Estrella de los Mares" Guerrera "San Carlos" "San Fernando" "San Juan" Santiago Valenti申a Ventura Victoria
+	}
+	submarine = {
+		Camagi申ey Cienfuegos Guanti申namo Ji申piter Marte Neptuno Pluti申n "Santa Clara" "Santiago de Cuba" Vulcano
+	}
+
+}

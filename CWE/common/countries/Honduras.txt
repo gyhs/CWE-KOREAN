@@ -1,0 +1,143 @@
+graphical_culture = Generic
+color = { 166 72 57 }
+party = {
+		name = "party_nationalist"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = nationalist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_big_tent"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = big_tent
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+
+party = {
+		name = "party_conservative_0_HON"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_liberal_0_HON"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_socialist_0_HON"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_progressive_0_HON"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = progressive
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_populist_0_HON"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_traditionalist_0_HON"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = traditionalist
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_0_HON"
+		citizenship_policy = full_citizenship
+		economic_policy = planned_economy
+		ideology = communist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_social"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = communist_social
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+unit_names = {
+	carrier = {
+		"Francisco Ferrera" "Francisco Morazi申n" Honduras "Josi申 Mari申a Medina" "Josi申 Santos" "Luis Bogri申n" "Manuel Bonilla" "Marco Aurelio Soto" "Terencio Sierra" "Tiburcio Andino"
+	}
+	transportship = {
+		Adelantada Azi申l Blanco Colorado Corsario Diamante Esmeralda "Estrella de los Mares" Hondurei申o Marejada Navegante Reli申mpago Rubi申 "San Joaqui申n" "San Nicoli申s" "Santa Ana" Surcadora Temporal Verde Voladora
+	}
+	modern_frigate = {
+		Amanecer Bi申falo Cabai申as Cari申as Flotante Guarda Irreverente Lempira Vi申ctor Zambrano
+	}
+	cruiser = {
+		"Cerro Palenque" Chorti Copi申n "Cristi申bal Coli申n" Curruste Cuyamel Despoloncal Maya "Pedro de Alvarado" Ticamaya
+	}
+	modern_cruiser = {
+		"Francisco Ferrera" "Francisco Morazi申n" Honduras "Josi申 Mari申a Medina" "Josi申 Santos" "Luis Bogri申n" "Manuel Bonilla" "Marco Aurelio Soto" "Terencio Sierra" "Tiburcio Andino"
+	}
+	frigate = {
+		Comayagua Gracias Juticalpa "La Esperanza" "Puerto Lempira" "San Pedro Sula" "Santa Bi申rbara" Tegucigalpa Trujillo Yoro
+	}
+	modern_destroyer = {
+		Barahona Hornett Lempa Nacaome Patuca Sigre Tatumbla Tigre Uli申a "Veintidi申s de Febrero"
+	}
+	destroyer = {
+		Ali申seo Federacii申n Honduras Libertad Nacii申n "San Francisco" "Santa Catalina" Tormenta Trueno
+	}
+	submarine = {
+		Atli申ntida Coli申n "El Tigre" "Gracias a Dios" "La Paz" Ocotepeque Utila Valle Yojoa "Zacate Grande"
+	}
+
+}

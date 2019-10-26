@@ -1,0 +1,165 @@
+graphical_culture = SouthAmericanGC
+color = { 117 170 219 }
+party = {
+		name = "Military Junta"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = nationalist
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "Radical Civic Union"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+
+party = {
+		name = "National Democratic Party"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 1958.1.1
+}
+party = {
+		name = "Republican Proposal"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 2005.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "Democratic Progressive Party"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2005.1.1
+}
+party = {
+		name = "GEN"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = progressive
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 2007.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "Socialist Party"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "Union of the Democratic Centre"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1982.1.1
+		end_date = 2007.1.1
+}
+party = {
+		name = "Justicialist Party"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "Christian Democratic Party"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = traditionalist
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1954.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "Communist Party"
+		citizenship_policy = full_citizenship
+		economic_policy = planned_economy
+		ideology = communist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_social"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = communist_social
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+unit_names = {
+	carrier = {
+		"ARA Alvear" "ARA Argentina" "ARA General Rosas" "ARA Moreno" "ARA Paz" "ARA Presidente Avellaneda" "ARA Ri申o de la Plata" "ARA Rivadavia" "ARA San Marti申n" "ARA Urquiza" "ARA Yrigoyen"
+	}
+	transportship = {
+		"ARA i申guila" "ARA Apolo" "ARA Atli申ntida" "ARA Audaz" "ARA Ceres" "ARA Ci申ndor" "ARA Cruel" "ARA Delfi申n" "ARA Eolo" "ARA Esperanza" "ARA Fi申nix" "ARA Fidela" "ARA Flora" "ARA Hera" "ARA Iris" "ARA Lanza" "ARA Minerva" "ARA Minotauro" "ARA Movimiento" "ARA Odisea" "ARA Platense" "ARA Proserpina" "ARA Providencia" "ARA Prueba" "ARA Puma" "ARA Rayo" "ARA Reli申mpago" "ARA Salvadora" "ARA San Josi申" "ARA San Juan Bautista" "ARA Santa Mari申a" "ARA Servidora" "ARA Temeraria" "ARA Tiburi申n" "ARA Tranquila" "ARA Triunfo" "ARA Uli申ses" "ARA Veloz" "ARA Victoria" "ARA Voladora"
+	}
+	modern_frigate = {
+		"ARA Bermejo" "ARA Catamarca" "ARA Constitucii申n" "ARA Ci申rdoba" "ARA Corrientes" "ARA Entrerri申os" "ARA Jujuy" "ARA La Plata" "ARA La Rioja" "ARA Mendoza" "ARA Misiones" "ARA Parani申" "ARA Pilcomayo" "ARA Rosario" "ARA San Juan" "ARA San Luis" "ARA Santa Cruz" "ARA Sol Argentino" "ARA Tucumi申n" "ARA Uruguay"
+	}
+	cruiser = {
+		"ARA Almirante Brown" "ARA i申lvarez Jonte" "ARA Belgrano" "ARA Buenos Aires" "ARA Castelli" "ARA Chichlana" "ARA Garibaldi" "ARA Gi申emes" "ARA Liniers" "ARA Matheu" "ARA Mitre" "ARA Nueve de Julio" "ARA Paso" "ARA Patagonia" "ARA Patria" "ARA Pueyrredi申n" "ARA Roca" "ARA San Marti申n" "ARA Sarratea" "ARA Veinticinco de Mayo"
+	}
+	modern_cruiser = {
+		"ARA Alvear" "ARA Argentina" "ARA General Rosas" "ARA Moreno" "ARA Paz" "ARA Presidente Avellaneda" "ARA Ri申o de la Plata" "ARA Rivadavia" "ARA San Marti申n" "ARA Urquiza" "ARA Yrigoyen"
+	}
+	frigate = {
+		"ARA Azopardo" "ARA Cervantes" "ARA Espora" "ARA Garay" "ARA Hi申rcules" "ARA Heroi申na" "ARA La Argentina" "ARA La Libertad" "ARA Murillo" "ARA Parker" "ARA Piedra Buena" "ARA Presidente Sarmiento" "ARA Repi申blica" "ARA Robinson" "ARA Rondeau" "ARA Rosales" "ARA Saavedra" "ARA Santi申sima Trinidad" "ARA Sarandi申" "ARA Spiro"
+	}
+	modern_destroyer = {
+		"ARA Almirante Brown" "ARA Bouchard" "ARA Campichuelo" "ARA Cepeda" "ARA De las Heras" "ARA Federacii申n" "ARA Huamiti申" "ARA Independencia" "ARA Ji申piter" "ARA Lavalle" "ARA Libertad" "ARA Marte" "ARA Mercurio" "ARA Neptuno" "ARA Pavi申n" "ARA Pluti申n" "ARA Salado" "ARA Salta" "ARA Suipacha" "ARA Thomas"
+	}
+	destroyer = {
+		"ARA Ami申rica" "ARA Aqui申les" "ARA Argentina" "ARA Argonauta" "ARA Furor" "ARA Hi申roe" "ARA Libertador" "ARA Navegante" "ARA Perla Negra" "ARA Ri申o de la Plata" "ARA Salvador" "ARA San Bernardo" "ARA San Claudio" "ARA San Honorato" "ARA San Joaqui申n" "ARA Santa Ana" "ARA Santa Mari申a" "ARA Santiago" "ARA Terror" "ARA Victoriosa"
+	}
+	submarine = {
+		"ARA El Plata" "ARA Formosa" "ARA Gran Chaco" "ARA La Pampa" "ARA Lago Argentino" "ARA Los Andes" "ARA Mesopotamia" "ARA Posadas" "ARA Rawson" "ARA Resistencia" "ARA San Fernando del Valle" "ARA San Miguel" "ARA San Salvador" "ARA Santa Rosa" "ARA Sirena" "ARA Somuncuri申" "ARA Tetis" "ARA Triti申n" "ARA Viedma" "ARA Vulcano"
+	}
+
+}

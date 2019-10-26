@@ -1,0 +1,201 @@
+graphical_culture = FrenchGC
+color = { 190  50  40 }
+party = {
+		name = "party_conservative_0_ALS" # MRP
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 1976.1.1
+}
+party = {
+		name = "party_conservative_1_ALS" # RPR
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1976.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_liberal_0_ALS" # UDF
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_socialist_0_ALS" # SFIO
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 1969.1.1
+}
+party = {
+		name = "party_socialist_1_ALS" # PS
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1969.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_progressive_0_ALS" # Greens
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = progressive
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1984.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_populist_0_ALS" # FN
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1972.1.1
+		end_date = 2100.1.1
+}
+party = {
+	name = "party_traditionalist_1_ALS" # Chasse, pAƒAªche, nature et traditions
+	citizenship_policy = residency
+	economic_policy = interventionism
+	ideology = traditionalist
+	religious_policy = moralism
+	trade_policy = protectionism
+	war_policy = jingoism
+	start_date = 1989.1.1
+	end_date = 2100.1.1
+}
+party = {
+	name = "party_traditionalist_0_ALS" #CNIP
+	citizenship_policy = residency
+	economic_policy = laissez_faire
+	ideology = traditionalist
+	religious_policy = moralism
+	trade_policy = free_trade
+	war_policy = jingoism
+	start_date = 1836.1.1
+	end_date = 2100.1.1
+}
+party = {
+		name = "party_communist_0_ALS" # Parti communiste francais (PCF)
+		citizenship_policy = full_citizenship
+		economic_policy = planned_economy
+		ideology = communist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_nationalist"
+		citizenship_policy = full_citizenship
+		economic_policy = planned_economy
+		ideology = nationalist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_communist_social"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = communist_social
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+unit_names = {
+	carrier = {
+		"Dunkerque" "Strasbourg" "Richelieu" "Clemenceau" "Petain" "Napoleon" "Poincare"
+		"Louis XIV" "Alsace" "Bourgogne" "Poitou" "Calais" "Rouen" "Brest" "Devastation"
+		"Courbet" "Amiral Duperre" "Terrible" "Indomptable" "Caiman" "Requin" "Admiral Baudin"
+		"Formidable" "Hoche" "Marceau" "Magenta" "Neptune" "Brennus" "Charles Martel" "Carnot"
+		"Jaureguiberry" "Massena" "Bouvet" "Charlemagne" "Saint Louis" "Gaulois" "Henri IV"
+		"Iena" "Suffren" "Republique" "Patrie" "Democratie" "Justice" "Liberte" "Verite"
+		"Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Condorcet" "Courbet" "France"
+		"Jean Bart" "Paris" "Fleurus" "Bretagne" "Lorraine" "Provence" "Bearn" "Flandre"
+		"Gascoigne" "Languedoc" "Normandie" "Guyenne" "Champagne" "Auvergne" "Lille" "Lyon"
+		"Orleans" "La Rochelle" "Bourdeaux"
+	}
+	transportship = {
+		"Brennus" "Charles Martel" "Carnot" "Jaureguiberry" "Massena" Bouvet Charlemagne "St Louis" Gaulois Iena Suffren Republique Patrie Liberte Justice Verite Democratie Danton Voltaire Diderot Condorcet Mirebeau Vergniaud "Henri IV"
+	}
+	modern_frigate = {
+		"Asmodee" "Gomer" "Darien" "Labrador" "Ulloa" "Cacique" "Canada" "Christophe Colomb"
+		"Eldorado" "Magellan" "Montezuma" "Orenoque" "Panama" "Albatros" "Descartes" "Vauban"
+		"Caffarelli" "Mogador" "Pomone" "Isly" "Bellone" "Foudre" "Imperatrice Eugenie"
+		"Souveraine" "Audacieuse" "Impetueuse" "Ardente" "Victoire" "Guerriere" "Renommee"
+		"Danae" "Pandore" "Zenobie" "Clorinde" "Astree"
+	}
+	cruiser = {
+		"Clovis" "Maurice de Saxe" "Vercingetorix" "Richemont" "Dunois" "Ney" "Leger" "Vauban"
+		"Conde" "Turenne" "Montebello" "Austerlitz" "Souverain" "Navarin" "Ulm" "Wagram"
+		"Algesiras" "Arcole" "Friedland" "Imperial" "Eylau" "Tilsitt" "Jena" "Auerstadt"
+		"Marengo" "Toulon" "Bellone" "Glorieuse" "Gracieuse" "Audacieuse" "Impetueuse" "Ardente"
+		"Victoire" "Guerriere" "Temeraire" "Triomphant" "Tigre" "Perseverante" "Vigilant"
+		"Tenace" "Elan" "Duguay Trouin" "Lamotte-Picquet" "Primaguet" "Duquesne" "Tourville"
+		"Colbert" "Foch" "Algerie" "Jeanne D'Arc" "Maroc" "Lafayette" "Davout" "Suchet" "Forbin"
+		"Surcouf" "Cosmao" "Lalande" "Galilee" "Lavoisier" "Linois" "La Galissionere"
+		"Jean de Vienne" "Gloire" "Marseillaise" "Georges Leygues" "De Grasse" "La Fantasque"
+		"Iphigenie" "Naiade" "Arethuse" "Dubourdieu" "Milan" "Belliqueuse" "Sfax" "Tage"
+		"Amiral Cecille" "Davout" "Suchet" "Coetlogon" "Forbin" "Surcouf" "Cosmao" "Lalande"
+		"Troude" "Galilee" "Lavoisier" "Linois" "Tunisie" "Isly" "Bugeaud" "Chasseloup-Laubat"
+		"Friant" "Descartes" "Pascal" "Cassard" "D'Assas" "Du Chayla" "Catinat" "Protet"
+		"D'Entrecasteaux" "Guichen" "Chateaurenault" "D'Estrees" "Infernet" "Jurien de la Graviere"
+		"Pluton" "Emile Bertin" "Dupuy de Lome" "Admiral Charner" "Bruix" "Chanzy" "Latouche-Treville"
+		"Pothau" "Dupetit-Thouars" "Gueydon" "Montcalm" "Desaix" "Dupleix" "Kleber"
+		"Amiral Aube" "Conde" "Sully" "Leon Gambetta" "Victor Hugo" "Jules Michelet"
+		"Ernest Renan" "Edgar Quinet" "Waldeck-Rousseau" "Thionville" "Metz" "Mulhouse" "Colmar"
+		"D'Assas" "Du Chayla" "Catinat" "Protet" "D'Entrecasteaux" "Guichen" "Chateaurenault"
+	}
+	modern_cruiser = {
+		"Dunkerque" "Strasbourg" "Richelieu" "Clemenceau" "Petain" "NapolA¯A¿A½on" "Poincare" "Louis XIV" "Alsace" "Bourgogne" "Poitou" "Calais" "Rouen" "Brest" "DA¯A¿A½vastation" "Courbet" "Amiral DuperrA¯A¿A½" "Terrible" "Indomptable" "Caiman" "Requin" "Admiral Baudin" "Formidable" "Hoche" "Marceau" "Magenta" "Neptune" "Brennus" "Charles Martel" "Carnot" "JaurA¯A¿A½guiberry" "MassA¯A¿A½na" "Bouvet" "Charlemagne" "Saint Louis" "Gaulois" "Henri IV" "IA¯A¿A½na" "Suffren" "RA¯A¿A½publique" "Patrie" "DA¯A¿A½mocratie" "Justice" "LibertA¯A¿A½" "VeritA¯A¿A½" "Danton" "Diderot" "Mirabeau" "Vergniaud" "Voltaire" "Condorcet" "Courbet" "France" "Jean Bart" "Paris" "Fleurus" "Bretagne" "Lorraine" "Provence" "Bearn" "Flandre" "Gascoigne" "Languedoc" "Normandie" "Guyenne" "Champagne" "Auvergne" "Lille" "Lyon" "Orleans" "La Rochelle" "Bourdeaux"
+	}
+	frigate = {
+		"Condor" "Epervier" "Faucon" "Vautour" "Wattignies" "Levrier" "Casablanca" "D'Iberville"
+		"Cassini" "Lahire" "Circe" "Hermione" "Pallas" "Semiramis" "Armorique" "Junon"
+		"Magicienne" "Themis" "Flore"
+	}
+	modern_destroyer = {
+		"Congreve" "Foudroyante" "Lave" "Tonnante" "Gloire" "Invincible" "Normandie" "Couronne"
+		"Magenta" "Solferino" "Flandre" "Gauloise" "Magnanime" "Provence" "Revanche" "Savoie"
+		"Surveillante" "Valeureuse" "Heroine"
+	}
+	destroyer = {
+		"Alexandre" "Breslaw" "Prince Jerome" "Ville de Paris" "Ville de Nantes" "Duguay-Trouin"
+		"Tage" "Donawerth" "Saint Louis" "Fontenoy" "Turenne" "Ville de Bordeaux" "Castiglione"
+		"Massena" "Bayard" "Ville de Lyon" "Louis XIV"
+	}
+	submarine = {
+		"Ocean" "Marengo" "Suffren" "Friedland" "Richelieu" "Colbert" "Trident"
+	}
+
+}

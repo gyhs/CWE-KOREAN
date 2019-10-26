@@ -1,0 +1,143 @@
+graphical_culture = SouthAmericanGC
+color = { 80 30 20 }
+party = {
+		name = "party_nationalist"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = nationalist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_big_tent"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = big_tent
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+
+party = {
+		name = "party_conservative_0_PRG"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_liberal_0_PRG"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_socialist_0_PRG"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_progressive_0_PRG"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = progressive
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_populist_0_PRG"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_traditionalist_0_PRG"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = traditionalist
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_0_PRG"
+		citizenship_policy = full_citizenship
+		economic_policy = planned_economy
+		ideology = communist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_social"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = communist_social
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+unit_names = {
+	carrier = {
+		"Capiti申n Cabral" "Capiti申n Orti申z" Haumaiti申 Itaipi申 Nanawa Paraguya "Rodri申guez de Francia" Tebicuary "Teniente Farii申a" Yhaguy
+	}
+	transportship = {
+		Angostura "Estrella de los Mares" Gigante Intri申pida Ji申piter Libre Marte Neptuno Pluti申n Reduccii申n "San Honorato" "San Lucas" "San Marcos" "San Mateo" "Santa Isabel" "Santa Mi申nica" Saturno Sirena Tetis Veloz
+	}
+	modern_frigate = {
+		Azote Destructor Fervor Hi申roe Reli申mpago Tempestad Terror Triunfo Trueno Victoria
+	}
+	cruiser = {
+		Aregui申 Asuncii申n Caaguazi申 "Cerro Peri申" "Ciudad del Este" Concepcii申n "Fuerte Olimpo" Itaugui申 i申eembuci申 Villarica
+	}
+	modern_cruiser = {
+		"Capiti申n Cabral" "Capiti申n Orti申z" Haumaiti申 Itaipi申 Nanawa Paraguya "Rodri申guez de Francia" Tebicuary "Teniente Farii申a" Yhaguy
+	}
+	frigate = {
+		"Alto Paraguay" "Bajo Paraguay" Boqueri申n Constitucii申n "Gran Chaco" Independencia Libertad "Patria Paraguaya" "Presidente Hayes" Repi申blica
+	}
+	modern_destroyer = {
+		"General Yegros" Jejui申 "Mi申rquez de Olinda" Paraguari申 Pirabebi申 "Francisco Solano Li申pez" Salto Tacuari申 Ygurey Ypori申
+	}
+	destroyer = {
+		Encarnacii申n "San Josi申" "San Juan" "San Juan Bautista" "San Lorenzo" "San Pedro" "Santa Ana" "Santa Mari申a" "Santa Marta" "Santi申sima Trinidad"
+	}
+	submarine = {
+		"Carlos Antonio Li申pez" Guarani申 Jopari申 Nivacli申 Parani申 Pilcomayo "Ri申o Paraguay" "Salto de Guairi申" "San Francisco Javier" "San Ignacio de Loyola"
+	}
+
+}

@@ -1,0 +1,143 @@
+graphical_culture = Generic
+color = { 150 85 61 }
+party = {
+		name = "party_nationalist"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = nationalist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+party = {
+		name = "party_big_tent"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = big_tent
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2100.1.1
+}
+
+party = {
+		name = "party_conservative_0_PNM"
+		citizenship_policy = limited_citizenship
+		economic_policy = interventionism
+		ideology = conservative
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_liberal_0_PNM"
+		citizenship_policy = full_citizenship
+		economic_policy = laissez_faire
+		ideology = liberal
+		religious_policy = secularized
+		trade_policy = free_trade
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_socialist_0_PNM"
+		citizenship_policy = limited_citizenship
+		economic_policy = state_capitalism
+		ideology = socialist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_progressive_0_PNM"
+		citizenship_policy = full_citizenship
+		economic_policy = interventionism
+		ideology = progressive
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_populist_0_PNM"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = populist
+		religious_policy = secularized
+		trade_policy = protectionism
+		war_policy = jingoism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_traditionalist_0_PNM"
+		citizenship_policy = residency
+		economic_policy = state_capitalism
+		ideology = traditionalist
+		religious_policy = moralism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_0_PNM"
+		citizenship_policy = full_citizenship
+		economic_policy = planned_economy
+		ideology = communist
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pacifism
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+party = {
+		name = "party_communist_social"
+		citizenship_policy = full_citizenship
+		economic_policy = state_capitalism
+		ideology = communist_social
+		religious_policy = pro_atheism
+		trade_policy = protectionism
+		war_policy = pro_military
+		start_date = 1836.1.1
+		end_date = 2092.1.1
+}
+unit_names = {
+	carrier = {
+		"Cristi申bal Coli申n" "Demetrio Brid" "Esteban Huertas" "Federico Boyd" Independencia "Josi申 Agusti申n Arango" "Manuel Amador Guerrero" Panami申 "Tomi申s de Herrera" "Tres de Noviembre"
+	}
+	transportship = {
+		i申guila Avance Carguero Ci申ndor Coraje Creador Descubridor i申ter Explorador Fi申nix Halci申n Inhundible Li申zaro Oscuro Pegaso "San Antonio" "San Bernabi申" "Santa Marta" Titi申n Volador
+	}
+	modern_frigate = {
+		Bari申 Chagres Chepo Destructor Exterminador Fuego San Miguel Temor Tuira Volci申n
+	}
+	cruiser = {
+		"Bocas del Toro" Buabidi Darii申n "El Porvenir" Emberi申-Wounaan "Kuna de Madugandi申" "Kuna de Wargandi申" "Kuna Yala Ngi申be-Bugli申" "Unii申n Choco"
+	}
+	modern_cruiser = {
+		"Cristi申bal Coli申n" "Demetrio Brid" "Esteban Huertas" "Federico Boyd" Independencia "Josi申 Agusti申n Arango" "Manuel Amador Guerrero" Panami申 "Tomi申s de Herrera" "Tres de Noviembre"
+	}
+	frigate = {
+		Chiriqui申 Chitri申 "Ciudad de Panami申" Cocli申 Coli申n Herrera "La Palma" "Los Santos" Penonomi申 Veraguas
+	}
+	modern_destroyer = {
+		Almirante Azuero Balboa Coiba Cristi申bal "El Golfo" "Las Pelas" Tabasari申 Taboga Talamanca
+	}
+	destroyer = {
+		"Espi申ritu Santo" "Estrella de los Mares" "San Blas" "San Carlos" "San Cristi申bal" "San Felipe" "San Fernando" "Santa Isabel" "Santa Mari申a" "Santi申sima Trinidad"
+	}
+	submarine = {
+		Cabra Cai申as Caribe Ci申baco Coiba Grande Jicari申n "Las Tres Mari申as" Mamey Montuosa
+	}
+
+}
