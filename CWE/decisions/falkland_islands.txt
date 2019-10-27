@@ -15,7 +15,7 @@ political_decisions = {
 		
 		effect = {
 			2131 = {
-				change_province_name = "¸»ºñ³ª¨Ù"
+				change_province_name = "ë§ë¹„ë‚˜â“œ"
 			}
 			prestige = 5
 			set_global_flag = rename_malvinas
@@ -36,7 +36,7 @@ political_decisions = {
 		
 		effect = {
 			2131 = {
-				change_province_name = "Æ÷Å¬¨Îµå"
+				change_province_name = "í¬í´â“‘ë“œ"
 			}
 			prestige = 5
 			clr_global_flag = rename_malvinas
