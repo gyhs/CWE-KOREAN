@@ -531,7 +531,7 @@ OR = { DDR = { in_sphere = THIS } DDR = { vassal_of = THIS } } OR = { GER = { in
 		
 		effect = {
 			capital = 549
-			551 = { change_province_name =  "Æ÷Ã÷´ã" }
+			551 = { change_province_name =  "í¬ì¸ ë‹´" }
 		}
 	
 	}
