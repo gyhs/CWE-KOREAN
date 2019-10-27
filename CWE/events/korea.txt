@@ -131,7 +131,7 @@ country_event = {
 	government = presidential_dictatorship 
 	country_event = 800050
 	ruling_party_ideology = conservative
-    define_general = { name = "À±º¸¼±" personality = energetic background = no_background }
+    define_general = { name = "ìœ¤ë³´ì„ " personality = energetic background = no_background }
 	ai_chance = { factor = 0.9 }
   }
 
