@@ -14,7 +14,7 @@ country_event = {
 
   option = {
     name = OK
-	define_general = { name = "¿ä¹Ý ´ÏÄÝ¸®Ä¡" personality = "energetic" background = "no_background" }
+	define_general = { name = "ìš”ë°˜ ë‹ˆì½œë¦¬ì¹˜" personality = "energetic" background = "no_background" }
   }
 }
 country_event = {
@@ -600,9 +600,9 @@ country_event = {
 country_event = {
   id = 8022744
   title = EVT_8022744_NAME
-  # EVT_8022744_NAME;Croat–Bosniak War
+  # EVT_8022744_NAME;Croatëº¹osniak War
   desc = EVT_8022744_DESC
-  # EVT_8022744_DESC;The Croat–Bosniak War was a conflict between the Republic of Bosnia and Herzegovina and the self-proclaimed Croatian Community of Herzeg-Bosnia, supported by the Republic of Croatia, that lasted from 19 June 1992[3] ?23 February 1994. The Croat-Bosniak war is often referred to as a "war within a war" because it was part of the larger Bosnian War. Although initially on the same side,[4] at the end of 1992, tensions between Bosnian Croats and Bosniaks rose and their collaboration fell apart. In January 1993, the two former allies engaged in open conflict.
+  # EVT_8022744_DESC;The Croatëº¹osniak War was a conflict between the Republic of Bosnia and Herzegovina and the self-proclaimed Croatian Community of Herzeg-Bosnia, supported by the Republic of Croatia, that lasted from 19 June 1992[3] ?23 February 1994. The Croat-Bosniak war is often referred to as a "war within a war" because it was part of the larger Bosnian War. Although initially on the same side,[4] at the end of 1992, tensions between Bosnian Croats and Bosniaks rose and their collaboration fell apart. In January 1993, the two former allies engaged in open conflict.
   picture = "mostar"
   fire_only_once = yes
 
