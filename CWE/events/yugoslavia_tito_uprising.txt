@@ -36,7 +36,7 @@ country_event = {
   
   option = {
     name = EVT_8223001_A
-	define_general = { name = "¿ä½ÃÇÁ ºê·ÎÁî Æ¼Åä" personality = energetic background = no_background }
+	define_general = { name = "ìš”ì‹œí”„ ë¸Œë¡œì¦ˆ í‹°í† " personality = energetic background = no_background }
 	RUS = { military_access = THIS } 
 	create_alliance = RUS 
 	# TODO claim YUG and war with GER
