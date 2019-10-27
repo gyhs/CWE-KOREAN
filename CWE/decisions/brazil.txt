@@ -17,7 +17,7 @@ political_decisions = {
 		effect = {
 			prestige = 10
 			capital = 2421
-			2421 = { change_province_name  = "ºê¶óÁú¸®¾Æ" }
+			2421 = { change_province_name  = "ë¸Œë¼ì§ˆë¦¬ì•„" }
 2421 = { add_province_modifier = { name = capital_pop_boom duration = 9125 } }
 			treasury = -1000000
 		}
