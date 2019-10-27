@@ -15,7 +15,7 @@ country_event = {
 
   option = {
     name = EVT_8013402_A
-	define_general = { name = "∂Û∏∂ 8ºº" personality = energetic background = no_background }
+	define_general = { name = "ÎùºÎßà 8ÏÑ∏" personality = energetic background = no_background }
   }
 }
 country_event = {
@@ -35,7 +35,7 @@ country_event = {
 
   option = {
     name = OK
-	define_general = { name = "∂Û∏∂ 9ºº" personality = energetic background = no_background }
+	define_general = { name = "ÎùºÎßà 9ÏÑ∏" personality = energetic background = no_background }
   }
 }
 country_event = {
