@@ -969,7 +969,7 @@ country_event = {
 
   option = {
     name = "Select Bonn as our capital"
-	574 = { change_province_name = "∫ª" }
+	574 = { change_province_name = "Î≥∏" }
 	capital = 574
 	ai_chance = { factor = 0.7 }
   }
@@ -1098,7 +1098,7 @@ country_event = {
 
   option = {
     name = EVT_8204101_A
-	551 = { change_province_name = "µø°◊∏¶∏∞" }
+	551 = { change_province_name = "Îèô¬ßÎ•ºÎ¶∞" }
 	capital = 551
   }
 }
@@ -1561,7 +1561,7 @@ country_event = {
 	option = {
 	  name = EVT_8204001_A
 	  change_tag = DDR
-	  RUS = { create_vassal = THIS } #As you do not act historicallyiºOeThe country can only get limited independence.
+	  RUS = { create_vassal = THIS } #As you do not act historicallyi¬ºOeThe country can only get limited independence.
 	  any_owned = { add_core = DDR }
 	}
 }
