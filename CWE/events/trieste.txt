@@ -222,7 +222,7 @@ country_event = {
 		}
 		add_core = 736
 	}
-	736 = { change_province_name = "Æ®¸®¿¡½ºÅ×" }
+	736 = { change_province_name = "íŠ¸ë¦¬ì—â“œí…Œ" }
 	any_owned = { remove_core = TRE }
   }
 }
