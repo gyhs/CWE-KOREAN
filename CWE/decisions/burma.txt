@@ -18,7 +18,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = naypyidaw
 			prestige = 10
-			1335 = { change_province_name  = "³×ÇÇµµ" }
+			1335 = { change_province_name  = "ë„¤í”¼ë„" }
 			capital = 1335
 		}
 		ai_will_do = { factor = 1 }
