@@ -19,7 +19,7 @@ country_event = {
 
   option = {
     name = EVT_8018013_A
-	define_general = { name = "ÀÀ¿ÀµòÁö¿¥" personality = energetic background = no_background }
+	define_general = { name = "ì‘ì˜¤ë”˜ì§€ì— " personality = energetic background = no_background }
 	government = presidential_dictatorship
 	ruling_party_ideology = populist
 	country_event = 800050
